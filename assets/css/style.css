@@ -1,3 +1,19 @@
 body{
     font-family: 'Lora', serif;
 }
+
+.logo{
+    font-family: 'Playfair Display', serif;
+}
+
+.etiqueta-post{
+    color:#c09f21;
+}
+
+article{
+    margin: 4em 0;
+}
+
+footer{
+    background: #f0f3f6;
+}
