@@ -1,8 +1,9 @@
 body{
     font-family: 'Lora', serif;
+    padding-top:3em;
 }
 
-.logo{
+.playfair{
     font-family: 'Playfair Display', serif;
 }
 
@@ -10,10 +11,19 @@ body{
     color:#c09f21;
 }
 
+.text-black{
+    color:#000;
+    text-decoration: none!important;
+}
+
+.text-black:hover{
+    color:#555;
+}
+
 article{
     margin: 4em 0;
 }
 
-footer{
+footer,aside{
     background: #f0f3f6;
 }
