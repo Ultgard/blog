@@ -1,14 +1,42 @@
 body{
     font-family: 'Lora', serif;
-    padding-top:3em;
+    padding-top:4.6em;
 }
 
 .playfair{
     font-family: 'Playfair Display', serif;
 }
 
+.hero{
+    background: url(../img/post-2-interior-a.jpg) no-repeat center center / cover;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    background: rgba( 0, 0, 0, 0.4 );
+    background: linear-gradient( 190deg, rgba( 0, 0, 0, 0 ), rgba( 0, 0, 0, 0.6 ) );
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header-info-post{
+    z-index: 1;
+    position: relative;
+}
+
 .etiqueta-post{
     color:#c09f21;
+}
+
+.hero .etiqueta-post{
+    background:#c09f21;
+    color: #fff;
+    border-radius: 3px;
 }
 
 .text-black{
